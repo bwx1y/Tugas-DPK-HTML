@@ -5,8 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="src/css/main.css" />
     <link rel="stylesheet" href="src/css/bootstrap.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", sans-serif;
+      }
+      .col-md-12,
+      .col-md-9 p {
+        text-align: justify;
+        text-indent: 2em;
+      }
+    </style>
     <title>Muslim Pro</title>
   </head>
   <body>
@@ -14,73 +27,115 @@
     <header>
       <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #e1eedd">
         <div class="container-fluid">
-          <a class="navbar-brand mb-0" href="#">
-            <img src="src/img/logo.png" alt="logo muslim pro" width="40" height="40" class="d-inline-block align-text-top" style="float: left" />
-            <h6>
-              Penggunaan Aplikasi <span class="text-success">Muslim Pro</span> Terhadap <br />
-              Perubahan Ibadah <span class="text-success">Gen-Z</span>
-            </h6>
-          </a>
+          <span class="navbar-brand mb-0">
+            <img src="src/img/logo.png" alt="logo muslim pro" width="30" height="30" class="d-inline-block align-text-top" />
+            Muslim Pro
+          </span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item text-light">
+              <a class="nav-link active" href="#Home">Home</a>
+            </li>
+            <li class="nav-item text-light">
+              <a class="nav-link active" href="#Panduan">Panduan</a>
+            </li>
+            <li class="nav-item text-light">
+              <a class="nav-link active" href="#Konten">Konten</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
     <!-- content -->
-    <div class="container" style="background-color: white">
-      <div class="row">
-        <hr color="white" size="20px" />
-      </div>
-      <img src="src/img/logo.png" alt="logo muslim pro" class="myIMG" />
+    <div class="container scrollspy-example bg-light p-3 rounded-2" data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+      <selection id="Home">
+        <div class="row pt-5">
+          <hr color="white" size="20px" />
+        </div>
+        <div class="row">
+          <div class="col-md-3 d-flex justify-content-center">
+            <img src="src/img/logo.png" alt="logo muslim pro" width="225" height="225" class="rounded float-start" />
+          </div>
+          <div class="col-md-9">
+            <h2 class="text-center">
+              Penggunaan Aplikasi <span class="text-success">Muslim Pro</span> Terhadap <br />
+              Perubahan Ibadah <span class="text-success">Gen-Z</span>
+            </h2>
+            <p>
+              Populasi Gen Z di Indonesia merupakan kelompok usia mayoritas penduduk, yakni sekitar 75 juta jiwa. Mereka menghadapi banyak tantangan dalam perekonomian saat ini, seperti kenaikan harga bahan bakar minyak (BBM), pemutusan
+              hubungan kerja (PHK) yang banyak dilakukan di perusahaan-perusahaan startup lokal, dan kenaikan harga komoditas. Namun, di tengah berbagai tantangan tersebut, Gen Z tetap berpegang pada agama sebagai pedoman dan landasan yang
+              stabil dalam kehidupan.
+            </p>
+          </div>
+        </div>
 
-      <p>
-        Populasi Gen Z di Indonesia merupakan kelompok usia mayoritas penduduk, yakni sekitar 75 juta jiwa. Mereka menghadapi banyak tantangan dalam perekonomian saat ini, seperti kenaikan harga bahan bakar minyak (BBM), pemutusan hubungan
-        kerja (PHK) yang banyak dilakukan di perusahaan-perusahaan startup lokal, dan kenaikan harga komoditas. Namun, di tengah berbagai tantangan tersebut, Gen Z tetap berpegang pada agama sebagai pedoman dan landasan yang stabil dalam
-        kehidupan.
-      </p>
-      <p>
-        Hasil survei menyatakan bahwa keyakinan dalam beragama menjadi hal yang sangat membantu Gen Z dalam menghadapi tantangan dan permasalahan hidup. Gen Z di Indonesia memiliki pola pikir yang lebih luas, toleran, dan terbuka
-        dibandingkan generasi-generasi sebelum mereka.
-      </p>
-      <p>
-        Sebesar 69% percaya bahwa toleransi antar umat beragama “cukup baik”. Sebagai generasi yang mudah beradaptasi terutama terhadap kemajuan teknologi, para ‘Zoomer’ menggunakan teknologi untuk membantu mereka dalam menjalani aktivitas
-        sehari-hari, salah satunya, beribadah, dan dalam konteks penulisan ini, dalam agama Islam.
-      </p>
-      <p>
-        beberapa aplikasi berbasis agama yang digunakan para Gen Z dalam keseharian mereka berdasarkan gaya hidup modern. Salah satunya adalah aplikasi Muslim Pro yang dibuat oleh perusahaan teknologi asal Singapura bernama Bitsmedia, yang
-        menyediakan berbagai jenis kebutuhan untuk gaya hidup Muslim modern.
-      </p>
-      <p>
-        Aplikasi berbasis agama tersebut berfungsi sebagai pengingat waktu salat, memberikan petunjuk arah kiblat, serta menemukan masjid terdekat dari lokasi tertentu. Ini akan mempermudah pengguna ketika melakukan perjalanan ke luar
-        negeri, terutama ke negara-negara non-Muslim. Aplikasi ini juga dapat memberikan rekomendasi makanan dan restoran halal yang sulit ditemukan di beberapa negara.
-      </p>
-      <p>
-        Sofia Imany, instruktur koki mengatakan, “Aplikasi Muslim Pro membantu mengingatkan saya untuk beribadah seberapapun sibuknya saya pada hari itu. Sebagai instruktur koki, sebagian besar waktu saya habiskan di dapur, di mana saya
-        tidak memiliki banyak waktu istirahat. Semua orang sibuk sehingga saya tidak dapat mengandalkan siapapun kecuali diri sendiri untuk mengingatkan diri sendiri untuk salat. Aplikasi ini sangat membantu saya dalam hal itu dan saya
-        percaya aplikasi ini juga membantu banyak umat Muslim lain di seluruh dunia untuk beribadah.”
-      </p>
-      <h2>Panduan ibadah dalam genggaman</h2>
-      <p>
-        Siapa pun yang bepergian pasti mengerti perjuangan bepergian, baik itu berkemas, beradaptasi dengan zona waktu yang berbeda, dan mencari tempat makan. Ini sangat menantang bagi umat Islam yang bepergian ke tujuan di mana populasi
-        Muslim jauh dan sedikit.
-      </p>
-      <p>
-        David Dwi Praharsa, seorang travel influencer dan entrepreneur yang sering membagikan vlog perjalanan unik dari seluruh dunia melalui platform IG @depepedia mengatakan, “Aplikasi Muslim Pro sangat membantu saya, terlebih ketika saya
-        sedang traveling. Sering kali di hotel di luar negeri tidak ada penunjuk arah kiblat, belum lagi zona waktu ibadah yang berbeda-beda di setiap negara. Dengan menggunakan aplikasi ini, saya bisa dengan mudah mencari arah kiblat, cek
-        jadwal sholat dan yang penting juga terjemahan surat-surat doa dalam Bahasa Inggris yang mudah dipahami. Aplikasi Muslim Pro sangat mempermudah saya untuk beribadah, karena semua yang dibutuhkan ada didalamnya.”
-      </p>
-      <h2>Nikmati konten yang berfokus pada Muslim yang menghibur dan bermanfaat</h2>
-      <p>
-        Meskipun dunia penuh dengan konten streaming dari Hollywood, Kpop, dan lainnya, kita tidak memiliki banyak konten yang merayakan identitas dan budaya Muslim di seluruh dunia. Kini dengan Qalbox, layanan streaming global yang
-        berfokus pada budaya, prinsip hidup, dan tata cara beribadah seorang Muslim, pengguna dapat menikmati berbagai konten pendidikan dan hiburan, termasuk film layar lebar, komedi stand-up, program perjalanan, dokumenter, serta lantunan
-        ayat-ayat suci Al-Qur’an dan berbagai doa. Aplikasi seperti inilah yang dapat memberdayakan pembuat konten dan kreatif di seluruh dunia untuk bergabung dan berbagi cerita otentik yang fokus pada komunitas Muslim.
-      </p>
-      <p>
-        Hessy Ambarwati, seorang pengguna aplikasi Muslim Pro, mengatakan, “Agama membantu mengingatkan saya tentang makna kehidupan yang sebenarnya dan senang rasanya bisa melihat seperti apa kehidupan seorang sesama Muslim lainnya dari
-        berbagai tayangan di Qalbox. Hidup di jalur yang tepat adalah apa yang dapat kita wariskan ke generasi selanjutnya dan bagaimana kita dapat melakukannya.”
-      </p>
-      <p>
-        Dengan segala fasilitas teknologi untuk spiritual dan komunitas ini, Gen Z di Indonesia memiliki peluang yang lebih baik dalam menyambut perubahan yang diperlukan untuk era baru ketidakpastian ekonomi. Meskipun tantangan tetap ada,
-        generasi penerus ini akan diuji untuk memimpin bangsa dalam waktu dekat, terutama dengan teknologi yang tepat untuk membimbing iman mereka.
-      </p>
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              Hasil survei menyatakan bahwa keyakinan dalam beragama menjadi hal yang sangat membantu Gen Z dalam menghadapi tantangan dan permasalahan hidup. Gen Z di Indonesia memiliki pola pikir yang lebih luas, toleran, dan terbuka
+              dibandingkan generasi-generasi sebelum mereka.
+            </p>
+            <p>
+              Sebesar 69% percaya bahwa toleransi antar umat beragama “cukup baik”. Sebagai generasi yang mudah beradaptasi terutama terhadap kemajuan teknologi, para ‘Zoomer’ menggunakan teknologi untuk membantu mereka dalam menjalani
+              aktivitas sehari-hari, salah satunya, beribadah, dan dalam konteks penulisan ini, dalam agama Islam.
+            </p>
+            <p>
+              beberapa aplikasi berbasis agama yang digunakan para Gen Z dalam keseharian mereka berdasarkan gaya hidup modern. Salah satunya adalah aplikasi Muslim Pro yang dibuat oleh perusahaan teknologi asal Singapura bernama Bitsmedia,
+              yang menyediakan berbagai jenis kebutuhan untuk gaya hidup Muslim modern.
+            </p>
+            <p>
+              Aplikasi berbasis agama tersebut berfungsi sebagai pengingat waktu salat, memberikan petunjuk arah kiblat, serta menemukan masjid terdekat dari lokasi tertentu. Ini akan mempermudah pengguna ketika melakukan perjalanan ke luar
+              negeri, terutama ke negara-negara non-Muslim. Aplikasi ini juga dapat memberikan rekomendasi makanan dan restoran halal yang sulit ditemukan di beberapa negara.
+            </p>
+            <p>
+              Sofia Imany, instruktur koki mengatakan, “Aplikasi Muslim Pro membantu mengingatkan saya untuk beribadah seberapapun sibuknya saya pada hari itu. Sebagai instruktur koki, sebagian besar waktu saya habiskan di dapur, di mana
+              saya tidak memiliki banyak waktu istirahat. Semua orang sibuk sehingga saya tidak dapat mengandalkan siapapun kecuali diri sendiri untuk mengingatkan diri sendiri untuk salat. Aplikasi ini sangat membantu saya dalam hal itu
+              dan saya percaya aplikasi ini juga membantu banyak umat Muslim lain di seluruh dunia untuk beribadah.”
+            </p>
+          </div>
+        </div>
+      </selection>
+      <section id="Panduan">
+        <div class="row">
+          <h2>Panduan ibadah dalam genggaman</h2>
+          <div class="col-md-12">
+            <p>
+              Siapa pun yang bepergian pasti mengerti perjuangan bepergian, baik itu berkemas, beradaptasi dengan zona waktu yang berbeda, dan mencari tempat makan. Ini sangat menantang bagi umat Islam yang bepergian ke tujuan di mana
+              populasi Muslim jauh dan sedikit.
+            </p>
+            <p>
+              David Dwi Praharsa, seorang travel influencer dan entrepreneur yang sering membagikan vlog perjalanan unik dari seluruh dunia melalui platform IG @depepedia mengatakan, “Aplikasi Muslim Pro sangat membantu saya, terlebih
+              ketika saya sedang traveling. Sering kali di hotel di luar negeri tidak ada penunjuk arah kiblat, belum lagi zona waktu ibadah yang berbeda-beda di setiap negara. Dengan menggunakan aplikasi ini, saya bisa dengan mudah mencari
+              arah kiblat, cek jadwal sholat dan yang penting juga terjemahan surat-surat doa dalam Bahasa Inggris yang mudah dipahami. Aplikasi Muslim Pro sangat mempermudah saya untuk beribadah, karena semua yang dibutuhkan ada
+              didalamnya.”
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="Konten">
+        <div class="row">
+          <h2>Nikmati konten yang berfokus pada Muslim yang menghibur dan bermanfaat</h2>
+          <div class="col-md-12">
+            <p>
+              Meskipun dunia penuh dengan konten streaming dari Hollywood, Kpop, dan lainnya, kita tidak memiliki banyak konten yang merayakan identitas dan budaya Muslim di seluruh dunia. Kini dengan Qalbox, layanan streaming global yang
+              berfokus pada budaya, prinsip hidup, dan tata cara beribadah seorang Muslim, pengguna dapat menikmati berbagai konten pendidikan dan hiburan, termasuk film layar lebar, komedi stand-up, program perjalanan, dokumenter, serta
+              lantunan ayat-ayat suci Al-Qur’an dan berbagai doa. Aplikasi seperti inilah yang dapat memberdayakan pembuat konten dan kreatif di seluruh dunia untuk bergabung dan berbagi cerita otentik yang fokus pada komunitas Muslim.
+            </p>
+            <p>
+              Hessy Ambarwati, seorang pengguna aplikasi Muslim Pro, mengatakan, “Agama membantu mengingatkan saya tentang makna kehidupan yang sebenarnya dan senang rasanya bisa melihat seperti apa kehidupan seorang sesama Muslim lainnya
+              dari berbagai tayangan di Qalbox. Hidup di jalur yang tepat adalah apa yang dapat kita wariskan ke generasi selanjutnya dan bagaimana kita dapat melakukannya.”
+            </p>
+            <p>
+              Dengan segala fasilitas teknologi untuk spiritual dan komunitas ini, Gen Z di Indonesia memiliki peluang yang lebih baik dalam menyambut perubahan yang diperlukan untuk era baru ketidakpastian ekonomi. Meskipun tantangan tetap
+              ada, generasi penerus ini akan diuji untuk memimpin bangsa dalam waktu dekat, terutama dengan teknologi yang tepat untuk membimbing iman mereka.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
     <script src="src/js/bootstrap.js"></script>
   </body>
